@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_riva.mk
+    $(LOCAL_DIR)/statix_riva.mk
 
 COMMON_LUNCH_CHOICES := \
-     fluid_riva-userdebug
+     statix_riva-userdebug
