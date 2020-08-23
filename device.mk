@@ -331,6 +331,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     $(DEVICE_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
 
+# Qcom
+PRODUCT_BOARD_PLATFORM := msm8917
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # RCS
 PRODUCT_PACKAGES += \
     rcs_service_aidl \
